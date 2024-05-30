@@ -315,7 +315,7 @@ test('@mdx-js/mdx: compile', async function (t) {
           React.createElement(await run(await compile('<X />')), {
             components: {
               /**
-               * @param {JSX.IntrinsicElements['span']} properties
+               * @param {React.JSX.IntrinsicElements['span']} properties
                *   Properties.
                */
               X(properties) {
@@ -338,7 +338,7 @@ test('@mdx-js/mdx: compile', async function (t) {
             components: {
               x: {
                 /**
-                 * @param {JSX.IntrinsicElements['span']} properties
+                 * @param {React.JSX.IntrinsicElements['span']} properties
                  *   Properties.
                  */
                 y(properties) {
@@ -369,9 +369,9 @@ test('@mdx-js/mdx: compile', async function (t) {
       )
 
       /**
-       * @param {JSX.IntrinsicElements['span']} properties
+       * @param {React.JSX.IntrinsicElements['span']} properties
        *   Properties.
-       * @returns {JSX.Element}
+       * @returns {React.JSX.Element}
        *   Element.
        */
       function X(properties) {
@@ -379,9 +379,9 @@ test('@mdx-js/mdx: compile', async function (t) {
       }
 
       /**
-       * @param {JSX.IntrinsicElements['span']} properties
+       * @param {React.JSX.IntrinsicElements['span']} properties
        *   Properties.
-       * @returns {JSX.Element}
+       * @returns {React.JSX.Element}
        *   Element.
        */
       function Y(properties) {
@@ -565,7 +565,7 @@ test('@mdx-js/mdx: compile', async function (t) {
           React.createElement(await run(await compile('a')), {
             components: {
               /**
-               * @param {JSX.IntrinsicElements['div'] & {components: MDXComponents}} properties
+               * @param {React.JSX.IntrinsicElements['div'] & {components: MDXComponents}} properties
                *   Properties.
                */
               wrapper(properties) {
@@ -612,7 +612,7 @@ test('@mdx-js/mdx: compile', async function (t) {
             {
               components: {
                 /**
-                 * @param {JSX.IntrinsicElements['article'] & {components: MDXComponents}} properties
+                 * @param {React.JSX.IntrinsicElements['article'] & {components: MDXComponents}} properties
                  *   Properties.
                  */
                 wrapper(properties) {

@@ -22,7 +22,7 @@ const known = new Set(['info', 'legacy', 'important'])
 /**
  * @param {Readonly<Properties>} properties
  *   Properties.
- * @returns {JSX.Element}
+ * @returns {React.JSX.Element}
  *   Element.
  */
 export function Note(properties) {

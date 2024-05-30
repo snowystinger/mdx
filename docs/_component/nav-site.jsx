@@ -34,7 +34,7 @@ export function NavigationSiteSkip() {
 /**
  * @param {Readonly<Properties>} properties
  *   Properties.
- * @returns {JSX.Element}
+ * @returns {React.JSX.Element}
  *   Element.
  */
 export function NavigationSite(properties) {

@@ -54,7 +54,7 @@ export function useMDXComponents(components) {
  *
  * @param {Readonly<Props>} properties
  *   Properties.
- * @returns {JSX.Element}
+ * @returns {React.JSX.Element}
  *   Element.
  * @satisfies {Component}
  */

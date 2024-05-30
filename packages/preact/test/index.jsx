@@ -60,7 +60,7 @@ test('@mdx-js/preact', async function (t) {
         <MDXProvider
           components={{
             /**
-             * @param {JSX.IntrinsicElements['div']} properties
+             * @param {React.JSX.IntrinsicElements['div']} properties
              *   Properties.
              * @returns
              *   Element.

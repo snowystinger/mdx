@@ -14,7 +14,7 @@ const data = [6, 5, 2, 4.5, 1.5, 2.5, 2, 2.5, 1.5, 2.5, 3.5, 7]
 /**
  * @param {Readonly<Properties>} properties
  *   Properties.
- * @returns {JSX.Element}
+ * @returns {React.JSX.Element}
  *   Element.
  */
 export function Chart(properties) {

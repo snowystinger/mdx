@@ -59,7 +59,7 @@ test('@mdx-js/react', async function (t) {
         <MDXProvider
           components={{
             /**
-             * @param {JSX.IntrinsicElements['div']} properties
+             * @param {React.JSX.IntrinsicElements['div']} properties
              */
             wrapper(properties) {
               return <div id="layout" {...properties} />

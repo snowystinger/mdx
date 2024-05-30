@@ -14,7 +14,7 @@
  *   Meta.
  * @property {Readonly<Item>} navigationTree
  *   Navigation tree.
- * @property {JSX.Element} children
+ * @property {React.JSX.Element} children
  *   Children.
  */
 
@@ -28,7 +28,7 @@ const dateTimeFormat = new Intl.DateTimeFormat('en', {dateStyle: 'long'})
 /**
  * @param {Readonly<Properties>} properties
  *   Properties.
- * @returns {JSX.Element}
+ * @returns {React.JSX.Element}
  *   Element.
  */
 export function Layout(properties) {

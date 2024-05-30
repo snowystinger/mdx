@@ -451,7 +451,7 @@ Create a production element (TypeScript type).
 
 ###### Returns
 
-Element from your framework (`JSX.Element`).
+Element from your framework (`React.JSX.Element`).
 
 ### `JsxDev`
 

@@ -123,7 +123,7 @@ Provider for MDX context.
 
 ##### Returns
 
-Element (`JSX.Element`).
+Element (`React.JSX.Element`).
 
 ### `useMDXComponents(components?)`
 

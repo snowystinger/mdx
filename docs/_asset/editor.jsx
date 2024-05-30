@@ -35,7 +35,7 @@
  *   OK.
  * @property {true} ok
  *   Whether OK.
- * @property {JSX.Element} value
+ * @property {React.JSX.Element} value
  *   Result.
  *
  * @typedef {EvalNok | EvalOk} EvalResult
@@ -315,7 +315,7 @@ function Playground() {
   const scope = formatMarkdown ? 'text.md' : 'source.mdx'
   // Cast to actual value.
   const compiledResult = /** @type {EvalResult | undefined} */ (evalResult)
-  /** @type {JSX.Element | undefined} */
+  /** @type {React.JSX.Element | undefined} */
   let display
 
   if (compiledResult) {
@@ -581,7 +581,7 @@ function Playground() {
  *
  * @param {Readonly<FallbackProperties>} properties
  *   Properties.
- * @returns {JSX.Element}
+ * @returns {React.JSX.Element}
  *   Element.
  */
 function ErrorFallback(properties) {
@@ -601,7 +601,7 @@ function ErrorFallback(properties) {
 /**
  * @param {DisplayProperties} properties
  *   Properties.
- * @returns {JSX.Element}
+ * @returns {React.JSX.Element}
  *   Element.
  */
 function DisplayError(properties) {
